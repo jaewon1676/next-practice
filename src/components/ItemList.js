@@ -11,14 +11,15 @@ function ItemList({list}) {
                             <Link href={`/view/${item.id}`}>
                                 <img src={item.image_link} alt={item.name}/>
                             </Link>
+                            
                         ))
                     }
                 </div>
                 <div class="column">
-                    {list.map((item) => (<img src={item.image_link} alt={item.name}/>))}
+                    {list.map((item) => (<img src={item.image_link} alt={item.name}/>) )}
+                    
                 </div>
                 <div class="column">
-                    {list.map((item) => (<img src={item.image_link} alt={item.name}/>))}
                 </div>
 
             </div>

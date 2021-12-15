@@ -31,7 +31,7 @@ export default function Home() {
         베스트 상품
       </Header>
       <Divider/>  
-      <ItemList list={list}/>
+      <ItemList list={list.slice(0, 10)}/>
     </div>
   )
 }
